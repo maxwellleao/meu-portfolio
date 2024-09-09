@@ -5,6 +5,7 @@
 }
 html,body{
     background-color:#161618;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* navbar */
@@ -16,4 +17,19 @@ html,body{
     position: fixed;
     left: 50%;
     transform: translate(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo */
+.logo{
+    color: white;
+    font-size: 35px
+}
+
+/* botão contato */
+.btn-contato{ 
+padding: 10px;
+
 }
