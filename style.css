@@ -4,6 +4,7 @@
     padding:0;
 }
 html,body{
+    position: relative;
     background-color:#161618;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -12,11 +13,11 @@ html,body{
 .navbar{
     width: 95%;
     height: 80px;
-    margin-top: 50px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: fixed;
     left: 50%;
     transform: translate(-50%);
+    top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,6 +31,44 @@ html,body{
 
 /* botão contato */
 .btn-contato{ 
-padding: 10px;
+padding: 10px 20px;
+background-color: transparent;
+border: 2px solid white;
+color: white;
+font-size: 20px;
+border-radius: 5px;
+transition: 0.4s;
+}
+.btn-contato:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;  
+}
 
+/* inicio */
+.inicio{
+    width: 95%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid red;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.conteudo{
+    width: 50%;
+    height: 100%;
+    border: 3px solid green;
+    color: white;
+}
+.conteudo >h1 {font-size: 50px;}
+.conteudo >p {color:rgb(194, 185, 185)}
+.conteudo >a {color:rgb(121, 79, 238)}
+
+.esquerdo{
+display: flex;
+flex-direction: column;
+gap: 10px;
 }
