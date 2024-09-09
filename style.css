@@ -1,0 +1,19 @@
+/* configurações padrão */
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    background-color:#161618;
+}
+
+/* navbar */
+.navbar{
+    width: 95%;
+    height: 80px;
+    margin-top: 50px;
+    border: 1px solid red;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+}
